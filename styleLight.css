@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Neon&display=swap');
+
+h1 {
+    color: #1C77ED;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Tilt Neon', cursive;
+    text-shadow: 1px 1px 1px #000;
+}
+
+body {
+    background-image: url(aboba.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+    backdrop-filter: blur(1px);
+}
+
+a {
+    color: #87FD60;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.intro {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(127, 185, 255);
+    font-family: 'Tilt Neon', cursive;
+    text-shadow: 1px 1px 1px #000;
+    margin: 15px;
+}
+
+img {
+    align-items: center;
+    outline: 2px solid #1350a1;
+}
+
+.infoWOW {
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 17px;
+    line-height: 1.2;
+    color: rgb(127, 185, 255);
+    text-shadow: 1px 1px 1px #000; 
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-bottom: 0px;
+}
+
+.table_sections {
+    color: #00ffee;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Tilt Neon', cursive;
+    text-shadow: 1px 1px 1px #000;
+}
+
+h2#content {
+    color: #72EDC2;
+    text-shadow: 1px 1px 1px #000;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+}
+
+.content_titles {
+    color: #1C77ED;
+    text-align: center;
+    font-family: 'Tilt Neon', cursive;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.linking {
+    text-align: justify;
+    font-size: 17px;
+    line-height: 1.2;
+    color: #FFEEFF; 
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+        
+ul li {
+    list-style-type: none;
+  }
+
+ul {
+    padding-inline-start: 20px;
+}
+
+li {
+    margin-bottom: 0px;
+    padding: 0px;
+    color: #6BFAA0;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li:before {
+    content: counter(item, disc) " ";
+    color: rgb(236, 195, 179);
+    font-size: 25px;
+  }

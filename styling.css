@@ -1,0 +1,175 @@
+@import "https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Neon&display=swap";
+h1 {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: -50px;
+  color: #FF0C60;
+  text-align: center;
+  font-size: 36px;
+  font-family: "Tilt Neon", cursive;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.bg-navbar {
+  background: rgb(14, 44, 73);
+  background: linear-gradient(90deg, rgb(14, 44, 73) 0%, rgb(0, 40, 119) 48%, rgb(18, 78, 129) 100%);
+  opacity: 0.8;
+  border: 3px solid #2c74b7;
+  border-radius: 5px;
+}
+
+body {
+  margin-top: 50px;
+  background-image: url("background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: aquamarine;
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+}
+
+.intro {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(209, 116, 255);
+  font-family: "Tilt Neon", cursive;
+  text-shadow: 1px 1px 1px #000;
+  margin: 15px;
+}
+
+img {
+  align-items: center;
+  outline: 2px solid #1f6dd3;
+}
+
+.infoSirus {
+  margin-left: 10px;
+  width: 690px;
+  position: relative;
+  text-align: justify;
+  text-indent: 20px;
+  font-size: 17px;
+  line-height: 1.2;
+  color: #FFEEFF;
+  font-family: "Roboto", sans-serif;
+}
+
+.imgSirus {
+  position: absolute;
+  top: 5px;
+  right: -810px;
+}
+
+.infoWOW {
+  text-align: justify;
+  text-indent: 20px;
+  font-size: 17px;
+  line-height: 1.2;
+  color: #FFEEFF;
+  font-family: "Roboto", sans-serif;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-bottom: 0px;
+}
+
+.container {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 1500px;
+}
+
+.table_sections {
+  text-align: center;
+  font-size: 16px;
+  align-items: center;
+}
+
+h2#content {
+  color: #ffc22c;
+  font-family: "Roboto", sans-serif;
+  padding-left: 10px;
+}
+
+.content_titles {
+  color: #ffce00;
+  text-align: center;
+  font-family: "Tilt Neon", cursive;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.linking {
+  text-align: justify;
+  font-size: 17px;
+  line-height: 1.2;
+  color: #FFEEFF;
+  font-family: "Roboto", sans-serif;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+footer {
+  right: 700px;
+  bottom: -25px;
+  font-size: 16px;
+  font-family: "Tilt Neon", cursive;
+  color: #FFEEFF;
+  position: fixed;
+}
+
+.description li::before {
+  margin-left: -20px;
+  content: counter(item, disc) " ";
+  color: rgb(236, 195, 179);
+  font-size: 25px;
+}
+
+a {
+  color: #ffc22c;
+}
+a:hover {
+  color: #ff4a00;
+}
+
+hr {
+  opacity: 1;
+  color: aliceblue;
+}
+
+li {
+  margin-bottom: 0px;
+  padding: 0px;
+  color: #ecec00;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+.text-navbar {
+  color: #257dd0;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 1px 1px 1px #000;
+}
+.text-navbar:hover {
+  color: #84c1fa;
+}
+.text-navbar:visited {
+  color: #84c1fa;
+}
+
+.text-navbar-wow {
+  color: #257dd0;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 1px 1px 1px #000;
+}
+.text-navbar-wow:hover {
+  color: #84c1fa;
+}
+.text-navbar-wow:visited {
+  color: #257dd0;
+}/*# sourceMappingURL=styling.css.map */
